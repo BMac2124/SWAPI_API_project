@@ -20,7 +20,7 @@
 }
 
 #footer{
-  background-color: grey;
+  background-color: lightgrey;
   text-align: center;
   height: 55px;
   width: 100%;
@@ -32,11 +32,20 @@
 
 .people-info{
   border: solid black 1px;
-  width: 100px;
+  width: 200px;
+
 }
 
 .project__parent{
-  border: solid green 1px;
-  width: 100vw
+  border: solid blue 1px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: grey;
+
 }
 
+.pics__project{
+  padding-top: 35px;
+  
+}

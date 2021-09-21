@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
-    return (
-        <div>
-            {/* About the project. maybe put some pics or set a background
-             */}
+  return (
+    <div>
+      {/* About the project. maybe put some pics or set a background
+       */}
 
-             About
-        </div>
-    )
-}
+      <img src="/images/sw.jpg" alt="" />
+    </div>
+  );
+};
 
-export default About
+export default About;

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { fetchSwapi } from '../actions'
 import { connect } from 'react-redux';
 
+
 const mapStateToProps = (state) => {
     return {
         swapi: state.swapiReducer.swapiData
@@ -34,9 +35,19 @@ const Project = (props) => {
     // const peopleList = (props) => {
     return (
         <div className='project__parent'>
-{/* <img src={require("/images/luke_skywalker.jpg")} atl='skywalker' height={200} width={200}/> */}
+            <div className='pics__project'>
+                <img src="/images/luke-darth.jpg" alt='' height={150} width={150} />
+                <br/>
+                <img src="/images/C-3PO.jpg" alt='' height={150} width={150} />
+                <br/>
+                <img src="/images/R2-D2.jpg" alt='' height={150} width={150} />
+
+                
+
+            </div>
+
             {/* {()=>props.fetchSwapi()} */}
-            <h3>{props.swapi.length > 0 ? props.swapi.map(swapi =>
+            <div>{props.swapi.length > 0 ? props.swapi.map(swapi =>
                 <div className='project'>
 
                     <ul className='people-info'>
@@ -54,7 +65,7 @@ const Project = (props) => {
                         </li>
                     </ul>
                 </div>
-            ) : null}</h3>
+            ) : null}</div>
         </div>
     )
 }
