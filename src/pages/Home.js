@@ -3,8 +3,8 @@ import React from 'react'
 const Home = () => {
     return (
         <div>
-            {/* On this page we will add in seperate divs with 
- info on favorite sith and jedi 2 of each  */}
+            {/* On this page we will use boot strap to add graphics.
+            Maybe some info on the SW films and actors. */}
 
             <div className='home_page'>
                 <img src="/images/Star-wars.jpg" alt='' />

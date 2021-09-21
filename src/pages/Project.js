@@ -49,7 +49,7 @@ const Project = (props) => {
             {/* {()=>props.fetchSwapi()} */}
             <div>{props.swapi.length > 0 ? props.swapi.map(swapi =>
                 <div className='project'>
-
+                            {/* work on the placment of images. using css  grid. look into bootstrap */}
                     <ul className='people-info'>
                         <li>
                             Name: {swapi.name}
