@@ -9,3 +9,6 @@ I also used map() and (props).
 Redux!! was used in the process of this creating this application.  
 
 Future plans are to build on to this project using Bootstrap and maybe pulling more info from the API. 
+
+
+https://dashboard.heroku.com/apps/modproj/deploy/github
